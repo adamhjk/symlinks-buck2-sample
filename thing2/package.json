@@ -1,6 +1,6 @@
 {
   "name": "thing2",
-  "version": "1.0.0",
+  "version": "1.0.4342",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,5 @@
   "keywords": [],
   "author": "",
   "license": "MIT",
-  "dependencies": {
-    "thing1": "workspace:*"
-  }
+  "dependencies": { }
 }

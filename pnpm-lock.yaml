@@ -9,12 +9,11 @@ importers:
       lodash:
         specifier: '*'
         version: 0.1.0
-
-  thing2:
-    dependencies:
-      thing1:
+      thing2:
         specifier: workspace:*
-        version: link:../thing1
+        version: link:../thing2
+
+  thing2: {}
 
 packages:
 
