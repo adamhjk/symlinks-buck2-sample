@@ -1,0 +1,12 @@
+{
+  "name": "symlinks-buck2-sample",
+  "version": "1.0.0",
+  "description": "A sample of buck2 failing on symlinks",
+  "scripts": { },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18 <19",
+    "pnpm": ">=8 <9"
+  },
+  "packageManager": "pnpm@8.2.0"
+}

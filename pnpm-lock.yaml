@@ -1,0 +1,24 @@
+lockfileVersion: '6.0'
+
+importers:
+
+  .: {}
+
+  thing1:
+    dependencies:
+      lodash:
+        specifier: '*'
+        version: 0.1.0
+
+  thing2:
+    dependencies:
+      thing1:
+        specifier: workspace:*
+        version: link:../thing1
+
+packages:
+
+  /lodash@0.1.0:
+    resolution: {integrity: sha512-ufIfwX7g5obXKaJhzbnAJBNf5Idxqty+AHaNadWFxtNKjGmF/ZO8ptSEjQRQRymBPZtLa0NV9sbrsH87Ae2R1A==}
+    engines: {'0': node, '1': rhino}
+    dev: false
